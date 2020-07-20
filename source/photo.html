@@ -127,6 +127,25 @@
           </ul>
         </div>
       </section>
+      <section class="posting">
+        <h2 class="visually-hidden">Загрузить фото</h2>
+        <p class="posting__offer">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+        <form action="https://echo.htmlacademy.ru" class="posting__form" method="post">
+          <div class="posting__your-photo">
+            <img src="https://via.placeholder.com/374x280" class="posting__image" width="280" height="374" alt="Зимняя дорога">
+          </div>
+          <div class="posting__edit">
+            <button class="posting__effect posting__effect--cut posting__effect--active" type="button"></button>
+            <button class="posting__effect posting__effect--color" type="button"></button>
+            <button class="posting__effect posting__effect--bright" type="button"></button>
+          </div>
+          <input type="range" id="range" name="range" class="posting__range">
+          <div class="posting__buttons">
+            <button class="posting__button posting__button--active" type="submit">Запостить</button>
+            <button class="posting__button" type="reset">Отмена</button>
+          </div>
+        </form>
+      </section>
     </main>
     <footer class="page-footer">
       <a class="page-footer__logo" href="index.html">
